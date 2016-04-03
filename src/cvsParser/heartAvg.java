@@ -1,32 +1,31 @@
 package cvsParser;
-
 public class heartAvg {
 	
-	Double age;
+	private Double age;
 
-	Double gender;
+	private Double gender;
 
-	Double cp;
+	private Double cp;
 
-	Double trestbps;
+	private Double trestbps;
 
-	Double chol;
+	private Double chol;
 
-	Double fbs;
+	private Double fbs;
 
-	Double restecg;
+	private Double restecg;
 
-	Double thalach;
+	private Double thalach;
 
-	Double exang;
+	private Double exang;
 
-	Double oldpeak;
+	private Double oldpeak;
 
-	Double dlope;
+	private Double dlope;
 
-	Double ca;
+	private Double ca;
 
-	Double thal;
+	private Double thal;
 	
 	/**
 	 * @param age
@@ -69,6 +68,188 @@ public class heartAvg {
 		return "heartAvg [age=" + age + ", gender=" + gender + ", cp=" + cp + ", trestbps=" + trestbps + ", chol="
 				+ chol + ", fbs=" + fbs + ", restecg=" + restecg + ", thalach=" + thalach + ", exang=" + exang
 				+ ", oldpeak=" + oldpeak + ", dlope=" + dlope + ", ca=" + ca + ", thal=" + thal + "]";
+	}
+
+	/**
+	 * @return the age
+	 */
+	public Double getAge() {
+		return age;
+	}
+
+	/**
+	 * @return the gender
+	 */
+	public Double getGender() {
+		return gender;
+	}
+
+	/**
+	 * @return the cp
+	 */
+	public Double getCp() {
+		return cp;
+	}
+
+	/**
+	 * @return the trestbps
+	 */
+	public Double getTrestbps() {
+		return trestbps;
+	}
+
+	/**
+	 * @return the chol
+	 */
+	public Double getChol() {
+		return chol;
+	}
+
+	/**
+	 * @return the fbs
+	 */
+	public Double getFbs() {
+		return fbs;
+	}
+
+	/**
+	 * @return the restecg
+	 */
+	public Double getRestecg() {
+		return restecg;
+	}
+
+	/**
+	 * @return the thalach
+	 */
+	public Double getThalach() {
+		return thalach;
+	}
+
+	/**
+	 * @return the exang
+	 */
+	public Double getExang() {
+		return exang;
+	}
+
+	/**
+	 * @return the oldpeak
+	 */
+	public Double getOldpeak() {
+		return oldpeak;
+	}
+
+	/**
+	 * @return the dlope
+	 */
+	public Double getDlope() {
+		return dlope;
+	}
+
+	/**
+	 * @return the ca
+	 */
+	public Double getCa() {
+		return ca;
+	}
+
+	/**
+	 * @return the thal
+	 */
+	public Double getThal() {
+		return thal;
+	}
+
+	/**
+	 * @param age the age to set
+	 */
+	public void setAge(Double age) {
+		this.age = age;
+	}
+
+	/**
+	 * @param gender the gender to set
+	 */
+	public void setGender(Double gender) {
+		this.gender = gender;
+	}
+
+	/**
+	 * @param cp the cp to set
+	 */
+	public void setCp(Double cp) {
+		this.cp = cp;
+	}
+
+	/**
+	 * @param trestbps the trestbps to set
+	 */
+	public void setTrestbps(Double trestbps) {
+		this.trestbps = trestbps;
+	}
+
+	/**
+	 * @param chol the chol to set
+	 */
+	public void setChol(Double chol) {
+		this.chol = chol;
+	}
+
+	/**
+	 * @param fbs the fbs to set
+	 */
+	public void setFbs(Double fbs) {
+		this.fbs = fbs;
+	}
+
+	/**
+	 * @param restecg the restecg to set
+	 */
+	public void setRestecg(Double restecg) {
+		this.restecg = restecg;
+	}
+
+	/**
+	 * @param thalach the thalach to set
+	 */
+	public void setThalach(Double thalach) {
+		this.thalach = thalach;
+	}
+
+	/**
+	 * @param exang the exang to set
+	 */
+	public void setExang(Double exang) {
+		this.exang = exang;
+	}
+
+	/**
+	 * @param oldpeak the oldpeak to set
+	 */
+	public void setOldpeak(Double oldpeak) {
+		this.oldpeak = oldpeak;
+	}
+
+	/**
+	 * @param dlope the dlope to set
+	 */
+	public void setDlope(Double dlope) {
+		this.dlope = dlope;
+	}
+
+	/**
+	 * @param ca the ca to set
+	 */
+	public void setCa(Double ca) {
+		this.ca = ca;
+	}
+
+	/**
+	 * @param thal the thal to set
+	 */
+	public void setThal(Double thal) {
+		this.thal = thal;
 	}
 
 
